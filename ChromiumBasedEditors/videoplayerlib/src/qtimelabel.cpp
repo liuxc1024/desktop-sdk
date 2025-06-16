@@ -3,6 +3,8 @@
 #include <QFontMetrics>
 #include <QtGlobal>
 
+#include <math.h>
+
 #include "../qwidgetutils.h"
 
 QTimeLabel::QTimeLabel(QWidget* parent) : QLabel(parent)
