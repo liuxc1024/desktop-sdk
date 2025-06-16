@@ -18,6 +18,8 @@
 #include "qiconpushbutton.h"
 #include "../qwidgetutils.h"
 
+#include <math.h>
+
 QStandardItem* CreateFileItem(const QString& text, const QString& file)
 {
 	QStandardItem* item = new QStandardItem(text);
