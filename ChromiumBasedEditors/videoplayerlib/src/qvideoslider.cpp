@@ -3,6 +3,8 @@
 #include <QStyleOption>
 #include <QPainter>
 
+#include <math.h>
+
 #include "../qwidgetutils.h"
 
 QVideoSlider::QVideoSlider(QWidget *parent, HandleType handleType) : QSlider(parent)
